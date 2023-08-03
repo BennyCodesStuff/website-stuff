@@ -1,0 +1,94 @@
+html {
+  margin: 0rem 5%;
+  box-shadow: 0 4px 8px 0 rgba(20, 181, 235, 0.6);
+}
+
+/*grid*/
+body {
+  display: grid;
+  place-content: center;
+  height: 300%;
+}
+
+.article-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.5rem 0rem;
+  grid-auto-rows: 1fr;
+}
+
+.article-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  columns: 2;
+} 
+
+article {
+  font-size: var(--fs-400);
+  padding: 2rem;
+  border-radius: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(20, 181, 235, 0.6);
+}
+
+div {
+  width: 50%;
+}
+
+/*the navbar styling*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 3rem;
+  overflow: hidden;
+  background-color: rgb(20, 181, 235);
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  float: left;
+  font-size: 1rem;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: rgb(48, 195, 244);
+}
+
+nav #active {
+  background-color: rgb(79, 207, 250);
+}
+
+/*text styling*/
+.text-heading {
+  text-align: center;
+}
+
+/*table styling*/
+table {
+  border: 2px solid black;
+  width: 100%
+}
+
+table tr {
+  border: 2px solid black;
+  width: 100%
+}
+
+table td {
+  border: 2px solid black;
+  width: 25%
+} 
+
+/*other styling*/
+.banner {
+  margin: 1rem 1rem;
+}
