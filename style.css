@@ -1,0 +1,63 @@
+#title { 
+    color: #d25d31; 
+  text-align: center;
+}
+#title2 {
+  text-align: center;
+  color: #9c2f08; 
+}
+#starting_description{
+    background-color: #e1991e;
+
+}
+
+body, main.parallax {
+  
+  background-image: url("https://frankandsal.com/cdn/shop/products/pizzas_2000x.png?v=1633532418");
+
+  
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: round;
+  background-size: contain;
+}
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    background-color: #25065f;
+    padding: 10px;
+ }
+ .item1 {
+ grid-row-start: 1;
+ grid-row-end: 1;
+ 
+ }
+  .grid-container > div {
+    background-color: rgba(252, 125, 7, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+ }
+
+ .icon-bar  {
+  width: 1000;
+  background-color:#25065f;
+  overflow: auto;
+ }
+ .icon-bar :hover {
+  width: 1000;
+  background-color:rgb(185, 167, 67);
+  overflow: auto;
+}
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
