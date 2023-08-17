@@ -7,13 +7,17 @@
         <meta charset="utf-8">   
         <style>
             #title { 
-                color: #d25d31; ;
-                margin-left: 500px;
-                margin-right: 500px;
+                color: #d25d31; 
+              text-align: center;
             }
+            #starting_description{
+                background-color: #e1991e;
+
+            }
+
             body, main.parallax {
               
-              background-image: url("https://media.tenor.com/wuyEcsxrvQwAAAAM/club-penguin-ghosthy.gif");
+              background-image: url("https://frankandsal.com/cdn/shop/products/pizzas_2000x.png?v=1633532418");
             
               
               min-height: 500px;
@@ -23,10 +27,43 @@
               background-repeat: round;
               background-size: contain;
             }
+             .grid-container {
+                display: grid;
+                grid-template-columns: auto auto ;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 10px;
+             }
+             .item1 {
+             grid-row-start: 1;
+             grid-row-end: 5;
+             
+             }
+              .grid-container > div {
+                background-color: rgba(255, 255, 255, 0.8);
+                text-align: center;
+                padding: 20px 0;
+                font-size: 30px;
+             }
 
         </style> 
          <body>
             <H1 id="title"> Tozy's PIZZA want PIZZA we got PIZZA</H1>
+            <img src="Tonzys just name.jpg" alt="">
+            <div class="grid-container">
+                <div class="item1"id="starting_description">  
+                  Welcome to Tozy's Pizza, a haven of culinary delight that embraces the unexpected! Nestled in ashburton, our pizzeria redefines the dining experience. Indulge in expertly crafted artisanal pizzas, from timeless Margheritas to bold BBQ Pulled Pork creations.<br><br>
+                
+                 At Tozy's, anticipation blends with excitement, as our charismatic "Bite-o-Matic" waiter adds a touch of playful surprise to your visit – a thrilling 80-20 chance! We're all about unity, warmly welcoming every guest, without exceptions. Our commitment extends to top-tier cheeses that enhance each delectable slice.<br><br>
+                    
+                    Join us for an extraordinary adventure at Tozy's Pizza, where every bite tells a tale, and every visit is a celebration of flavor. Unleash your inner pizza connoisseur and savor the remarkable, only at Tozy's Pizza – where taste knows no bounds.
+                </div>
+                <div class="item2"></div>
+                <div class="item3">3</div> 
+              </div>
+              
+            <p id="starting_description"> 
+             </p>
          </body>
 
     </head>
