@@ -61,3 +61,8 @@ body, main.parallax {
   color: white;
   font-size: 36px;
 }
+
+.deals-head { 
+  grid-column: 1 / span 2;
+  grid-row: 1;
+   }
