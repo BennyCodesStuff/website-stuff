@@ -5,6 +5,8 @@
 #title2 {
   text-align: center;
   color: #9c2f08; 
+  background-color: #47258644;
+  box-shadow:  10px 10px #ac5738;
 }
 #starting_description{
     background-color: #e1991e;
@@ -24,11 +26,13 @@ body, main.parallax {
   background-size: contain;
 }
  .grid-container {
+    size: 1000px;
     display: grid;
     grid-template-columns: auto auto ;
     gap: 10px;
     background-color: #25065f;
     padding: 10px;
+    
  }
  .item1 {
  grid-row-start: 1;
@@ -40,6 +44,7 @@ body, main.parallax {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+    
  }
 
  .icon-bar  {
