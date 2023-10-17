@@ -1,18 +1,26 @@
 #title { 
-    color: #d25d31; 
+    color: #cc6644; 
   text-align: center;
+  background-color: #5d4d7c;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 #title2 {
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
-  color: #9c2f08; 
-  background-color: #47258644;
+  color: #d45b33; 
+  background-color: #472586;
   box-shadow:  10px 10px #ac5738;
 }
 #starting_description{
     background-color: #e1991e;
 }
+
+header{
+  position: fixed;
+}
+
 
 body, main.parallax {
   
